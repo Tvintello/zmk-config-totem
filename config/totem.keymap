@@ -105,28 +105,28 @@
         func {
             label = "ADJU";
             bindings = <
-        &kp F12  &kp F7  &kp F8  &kp F9  &trans    &bt BT_CLR  &bt BT_NXT  &bt BT_PRV  &out OUT_TOG  &trans
-        &kp F11  &kp F4  &kp F5  &kp F6  &trans    &caps_word  &kp RSHIFT  &kp RCTRL   &kp RALT      &kp RGUI
-&trans  &kp F10  &kp F1  &kp F2  &kp F3  &trans    &to 5       &trans      &trans      &trans        &trans    &trans
-                         &trans  &trans  &trans    &trans      &trans      &trans
+       &kp F12  &kp F7  &kp F8  &kp F9  &trans    &bt BT_CLR  &bt BT_NXT  &bt BT_PRV  &out OUT_TOG  &trans
+       &kp F11  &kp F4  &kp F5  &kp F6  &trans    &caps_word  &kp RSHIFT  &kp RCTRL   &kp RALT      &kp RGUI
+&to 5  &kp F10  &kp F1  &kp F2  &kp F3  &trans    &trans      &trans      &trans      &trans        &trans    &trans
+                        &trans  &trans  &trans    &trans      &trans      &trans
             >;
         };
 
         GAME {
             bindings = <
-       &kp G      &kp Q  &kp R         &kp E      &kp T      &trans  &trans  &trans  &trans  &trans
-       &kp LSHFT  &kp A  &kp W         &kp D      &kp F      &trans  &trans  &trans  &trans  &trans
-&kp M  &kp LCTRL  &kp X  &kp S         &kp C      &kp V      &to 0   &trans  &trans  &trans  &trans  &trans
-                         &lt 6 ESCAPE  &kp SPACE  &kp TAB    &trans  &trans  &trans
+         &kp G      &kp Q  &kp R         &kp E      &kp T        &trans  &trans  &trans  &trans  &trans
+         &kp LSHFT  &kp A  &kp W         &kp D      &kp F        &trans  &trans  &trans  &trans  &trans
+&lt 1 M  &kp LCTRL  &kp X  &kp S         &kp C      &kp V        &trans  &trans  &trans  &trans  &trans  &trans
+                           &lt 6 ESCAPE  &kp SPACE  &lt 4 TAB    &trans  &trans  &trans
             >;
         };
 
         GAME2 {
             bindings = <
-          &kp NUMBER_1  &kp NUMBER_2  &kp F1  &kp F3  &kp L     &trans  &trans  &trans  &trans  &trans
-          &kp Z         &kp Y         &kp O   &kp H   &kp K     &trans  &trans  &trans  &trans  &trans
-&kp LBKT  &kp RBKT      &kp U         &kp P   &kp N   &kp B     &trans  &trans  &trans  &trans  &trans  &trans
-                                      &trans  &trans  &trans    &trans  &trans  &trans
+       &kp Z   &kp Y         &kp O   &kp H   &kp K     &trans  &trans  &trans  &trans  &trans
+       &kp N5  &kp NUMBER_1  &kp N2  &kp N3  &kp N4    &trans  &trans  &trans  &trans  &trans
+&to 0  &kp J   &kp U         &kp P   &kp N   &kp B     &trans  &trans  &trans  &trans  &trans  &trans
+                             &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
